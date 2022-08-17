@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@200&display=swap');
+
+/*Projeto official*/
+
+:root{
+    --corAzul: #009CDC;
+    --corPreta: #403C3D;
+    --corBeje: #F3B16A;
+    --corBranca: #ffffff;
+
+    --fonteBold: 'Bebas Neue', cursive;
+    --fonteConteudo:'Raleway', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--corAzul);
+    padding-top: 30px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: var(--fonteBold);
+    color: var(--corBranca);
+    font-weight: normal;
+    font-size: 4vw;
+}
+
+header p{
+    text-align: center;
+    font-family: var(--fonteConteudo);
+    font-weight: bolder;
+}
+
+header nav ul{
+    list-style: none;
+    font-family: var(--fonteConteudo);
+    font-weight: bolder;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+header nav ul li a{
+    color: var(--corPreta);
+}
+
+header nav ul li:hover{
+    background-color: var(--corBranca);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+header nav ul{
+    text-align: center;
+    padding-top: 20px;
+}
