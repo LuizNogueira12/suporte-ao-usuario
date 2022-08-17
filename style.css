@@ -47,6 +47,7 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     margin: 15px;
+    transition-duration: .3s;
 }
 
 header nav ul li a{
@@ -64,3 +65,4 @@ header nav ul{
     text-align: center;
     padding-top: 20px;
 }
+
