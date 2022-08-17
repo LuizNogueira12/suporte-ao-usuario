@@ -66,3 +66,13 @@ header nav ul{
     padding-top: 20px;
 }
 
+article{
+    background-color: var(--corBeje);
+}
+
+article > h2{
+    font-family: var(--fonteBold);
+    font-weight: normal;
+
+}
+
