@@ -73,6 +73,8 @@ article{
 article > h2{
     font-family: var(--fonteBold);
     font-weight: normal;
+    background-image: linear-gradient(to right, var(--corBranca), transparent);
+    width: 1100px;
 
 }
 
@@ -80,4 +82,3 @@ article p{
     font-family: var(--fonteConteudo);
     font-weight: bold;
 }
-
