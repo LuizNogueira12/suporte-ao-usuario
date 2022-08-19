@@ -47,11 +47,12 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     margin: 15px;
-    transition-duration: .3s;
+    transition-duration: .4s;
 }
 
 header nav ul li a{
     color: var(--corPreta);
+    text-decoration: none;
 }
 
 header nav ul li:hover{
@@ -86,4 +87,8 @@ article p{
     font-family: var(--fonteConteudo);
     font-weight: bold;
     line-height: 25px;
+}
+
+div#teste3{
+    scroll-behavior: smooth;
 }
