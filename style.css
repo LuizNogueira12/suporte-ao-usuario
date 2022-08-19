@@ -75,10 +75,15 @@ article > h2{
     font-weight: normal;
     background-image: linear-gradient(to right, var(--corBranca), transparent);
     width: 1100px;
+    text-indent: 10px;
+    height: 28px;
+    border-radius: 5px;
+    line-height: normal;
 
 }
 
 article p{
     font-family: var(--fonteConteudo);
     font-weight: bold;
+    line-height: 25px;
 }
