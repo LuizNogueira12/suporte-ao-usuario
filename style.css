@@ -89,6 +89,6 @@ article p{
     line-height: 25px;
 }
 
-div#teste3{
+html, body{
     scroll-behavior: smooth;
 }
